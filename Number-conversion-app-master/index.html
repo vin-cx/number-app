@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conv.css">
+    <title>Number Converter</title>
+</head>
+<body>
+    <section id="body-section">
+        <div id="display-section">
+            <div id="input-section">
+                <input type="text" id="input-number">
+            </div>
+
+            <div id="conv-section">
+                <select id="options">
+                    <option value="What is the base">What is the current base?</option>
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binary</option>
+                    <option value="hexa">Hexadecimal</option>
+                    <option value="octal">Octal</option>
+                  </select>
+            </div>
+
+            <div id="output-section">
+                0
+            </div>
+        </div>
+
+        <div id="button-section">
+            <button id="decimal" class="input-btn">Decimal</button>
+            <button id="binary" class="input-btn">Binary</button>
+            <button id="hexa" class="input-btn">Hexadecimal</button>
+            <button id="octal" class="input-btn">Octal</button>
+        </div>
+    </section>
+
+    <script src="conv.js"></script>
+</body>
+</html>

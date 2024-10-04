@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #181818; /* A slightly darker background */
+    color: #fff;
+  }
+  
+  #body-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #display-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #input-section, #conv-section, #output-section {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #input-number {
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 3px;
+  }
+  
+  #options {
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 3px;
+  }
+  
+  #output-section {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke; /* Green for output */
+  }
+  
+  #button-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-btn {
+    padding: 10px 20px;
+    background-color: #444; /* Slightly lighter button background */
+    border: 1px solid #333; /* Add a border to make buttons more visible */
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: whitesmoke;
+  }
+  
+  .input-btn:hover {
+    background-color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    #display-section {
+      flex-direction: column;
+    }
+  }
